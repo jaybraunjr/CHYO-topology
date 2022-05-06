@@ -1,0 +1,263 @@
+*  \\\\\\\ Adapted from CHARMM36 All-Hydrogen Lipid Topology File ///////
+*
+36  1
+
+DEFA FIRS none LAST none
+AUTOGENERATE ANGLES DIHEDRALS
+
+MASS 136  HL    1.008000 H ! polar H (equivalent to protein H)
+MASS 137  HCL   1.008000 H ! charged H for PE (equivalent to protein HC)
+MASS 138  HOL   1.008000 H ! Nucleic acid phosphate hydroxyl proton
+MASS 139  HAL1  1.008000 H ! alphatic proton
+MASS 140  HAL2  1.008000 H ! alphatic proton
+MASS 141  HAL3  1.008000 H ! alphatic proton
+MASS 142  HEL1  1.008000 H ! for alkene; RHC=CR
+MASS 143  HEL2  1.008000 H ! for alkene; H2C=CR. Currently unused.
+MASS 144  HBL   1.008000 H ! POPS SER backbone H
+MASS 145  CL   12.011000 C ! carbonyl C (acetic acid/methyl acetate)
+MASS 146  CTL1 12.011000 C ! sp3 carbon with 1 H  (-CH1-)
+MASS 147  CTL2 12.011000 C ! carbon of methylene group (-CH2-)
+MASS 148  CTL3 12.011000 C ! carbon of methyl group (-CH3)
+MASS 149  CTL5 12.011000 C ! carbon of methyl group (-CH3) for tetramethylammonium
+MASS 150  CEL1 12.011000 C ! for alkene; RHC=CR
+MASS 151  CEL2 12.011000 C ! for alkene; H2C=CR. Currently unused.
+MASS 152  CCL  12.011000 C ! for POPS
+MASS 153  NTL  14.007000 N ! ammonium nitrogen
+MASS 154  NH3L 14.007000 N ! nitrogen phosphatidylethanolamine
+MASS 155  OBL  15.999400 O ! acetic acid carboxyl oxygen (e. to protein OB)
+MASS 156  OCL  15.999400 O ! acetate oxygen
+MASS 157  OSL  15.999400 O ! ester oxygen
+MASS 158  O2L  15.999400 O ! Nucleic acid =O in phosphate or sulfate
+MASS 159  OHL  15.999400 O ! Nucleic acid phosphate hydroxyl oxygen
+MASS 160  OSLP 15.999400 O ! Phosphate oxygen, to avoid conflict with methylacetate type O
+MASS 161  PL   30.974000 P ! phosphorus
+MASS 162  SL   32.060000 S ! Sulfate sulfur
+MASS 163  CRL1 12.011000 C ! sp3 carbon with 1 H on a ring  (-CH1-) for sterols
+MASS 164  CRL2 12.011000 C ! carbon of methylene group on a ring (-CH2-) for sterols
+
+RESI CHYO          0.00 !        cholesteryl oleate
+!
+GROUP                  !              H18C            
+ATOM C318 CTL3   -0.27 !               |              
+ATOM H18A HAL3    0.09 !        H18A---C318--H18B     
+ATOM H18B HAL3    0.09 !               |              
+ATOM H18C HAL3    0.09 !               |              
+GROUP                  !               |              
+ATOM C317 CTL2   -0.18 !               |              
+ATOM H17A HAL2    0.09 !        H17A---C317--H17B     
+ATOM H17B HAL2    0.09 !               |              
+GROUP                  !               |              
+ATOM C316 CTL2   -0.18 !               |              
+ATOM H16A HAL2    0.09 !        H16A---C316--H16B     
+ATOM H16B HAL2    0.09 !               |              
+GROUP                  !               |              
+ATOM C315 CTL2   -0.18 !               |              
+ATOM H15A HAL2    0.09 !        H15A---C315--H15B     
+ATOM H15B HAL2    0.09 !               |              
+GROUP                  !               |              
+ATOM C314 CTL2   -0.18 !               |              
+ATOM H14A HAL2    0.09 !        H14A---C314--H14B     
+ATOM H14B HAL2    0.09 !               |              
+GROUP                  !               |              
+ATOM C313 CTL2   -0.18 !               |              
+ATOM H13A HAL2    0.09 !        H13A---C313--H13B     
+ATOM H13B HAL2    0.09 !               |              
+GROUP                  !               |              
+ATOM C312 CTL2   -0.18 !               |              
+ATOM H12A HAL2    0.09 !        H12A---C312--H12B     
+ATOM H12B HAL2    0.09 !               |              
+GROUP                  !               |              
+ATOM C311 CTL2   -0.18 !               |              
+ATOM H11A HAL2    0.09 !        H11A---C311--H11B     
+ATOM H11B HAL2    0.09 !               |              
+GROUP                  !               |              
+ATOM C310 CEL1   -0.15 !               |              
+ATOM H10A HEL1    0.15 !      H10A ---C310            
+GROUP                  !               ||  (CIS)      
+ATOM C39  CEL1   -0.15 !               ||             
+ATOM H9A  HEL1    0.15 !        H9A---C39             
+GROUP                  !               |              
+ATOM C38  CTL2   -0.18 !               |              
+ATOM H8A  HAL2    0.09 !        H8A ---C38---H8B      
+ATOM H8B  HAL2    0.09 !               |              
+GROUP                  !               |              
+ATOM C37  CTL2   -0.18 !               |              
+ATOM H7A  HAL2    0.09 !        H7A ---C37---H7B      
+ATOM H7B  HAL2    0.09 !               |              
+GROUP                  !               |              
+ATOM C36  CTL2   -0.18 !               |              
+ATOM H6A  HAL2    0.09 !        H6A ---C36---H6B      
+ATOM H6B  HAL2    0.09 !               |              
+GROUP                  !               |              
+ATOM C35  CTL2   -0.18 !               |              
+ATOM H5A  HAL2    0.09 !        H5A ---C35---H5B      
+ATOM H5B  HAL2    0.09 !               |              
+GROUP                  !               |              
+ATOM C34  CTL2   -0.18 !               |              
+ATOM H4A  HAL2    0.09 !        H4A ---C34---H4B      
+ATOM H4B  HAL2    0.09 !               |              
+GROUP                  !               |                   
+ATOM C33  CTL2   -0.18 !               |              
+ATOM H3A  HAL2    0.09 !        H3A ---C33---H3B      
+ATOM H3B  HAL2    0.09 !               |              
+GROUP                  !               |       
+ATOM C32  CTL2   -0.22 !               |
+ATOM H2A  HAL2    0.09 !        H2A---C32---H2B
+ATOM H2B  HAL2    0.09 !               |      
+ATOM O31  OSL    -0.49 !               |        
+ATOM C31  CL      0.90 !         O32 = C31 
+ATOM O32  OBL    -0.63 !                \      
+ATOM C3   CRL1    0.17 !                 O31  
+ATOM H3   HGA1    0.09 !                 |
+GROUP                  !                 C3
+ATOM C4   CRL2    -0.18  
+ATOM H4R  HGA2     0.09
+ATOM H4S  HGA2     0.09
+GROUP
+ATOM C5   CEL1     0.00
+ATOM C6   CEL1    -0.15
+ATOM H6   HEL1     0.15
+GROUP
+ATOM C7   CRL2    -0.18
+ATOM H7R  HGA2     0.09
+ATOM H7S  HGA2     0.09
+GROUP
+ATOM C8   CRL1    -0.09
+ATOM H8   HGA1     0.09 
+GROUP
+ATOM C14  CRL1    -0.09
+ATOM H14  HGA1     0.09 
+GROUP
+ATOM C15  CRL2    -0.18
+ATOM H15R HGA2     0.09
+ATOM H15S HGA2     0.09
+GROUP
+ATOM C16  CRL2    -0.18
+ATOM H16R HGA2     0.09
+ATOM H16S HGA2     0.09
+GROUP
+ATOM C17  CRL1    -0.09
+ATOM H17  HGA1     0.09
+GROUP
+ATOM C13  CRL1     0.00
+GROUP
+ATOM C18  CTL3    -0.27  !methyl at c13
+ATOM H18R HAL3     0.09
+ATOM H18S HAL3     0.09
+ATOM H18T HAL3     0.09
+GROUP
+ATOM C12  CRL2    -0.18
+ATOM H12R HGA2     0.09
+ATOM H12S HGA2     0.09
+GROUP
+ATOM C11  CRL2    -0.18
+ATOM H11R HGA2     0.09
+ATOM H11S HGA2     0.09
+GROUP
+ATOM C9   CRL1    -0.09
+ATOM H9   HGA1     0.09
+GROUP
+ATOM C10  CRL1     0.00
+GROUP
+ATOM C19  CTL3    -0.27  !methyl at c10
+ATOM H19R HAL3     0.09
+ATOM H19S HAL3     0.09
+ATOM H19T HAL3     0.09
+GROUP
+ATOM C1   CRL2    -0.18
+ATOM H1R  HGA2     0.09
+ATOM H1S  HGA2     0.09
+GROUP
+ATOM C2   CRL2    -0.18
+ATOM H2R  HGA2     0.09
+ATOM H2S  HGA2     0.09
+GROUP
+ATOM C20  CTL1    -0.09
+ATOM H20  HAL1     0.09
+GROUP
+ATOM C21  CTL3    -0.27
+ATOM H21R HAL3     0.09
+ATOM H21S HAL3     0.09
+ATOM H21T HAL3     0.09
+GROUP
+ATOM C22  CTL2    -0.18
+ATOM H22R HAL2     0.09
+ATOM H22S HAL2     0.09
+GROUP
+ATOM C23  CTL2    -0.18
+ATOM H23R HAL2     0.09
+ATOM H23S HAL2     0.09
+GROUP
+ATOM C24  CTL2    -0.18  !beyond this nomenclature may not be correct
+ATOM H24R HAL2     0.09
+ATOM H24S HAL2     0.09
+GROUP
+ATOM C25  CTL1    -0.09  !c25
+ATOM H25  HAL1     0.09
+GROUP
+ATOM C26  CTL3    -0.27  !terminal methyl, c26
+ATOM H26R HAL3     0.09
+ATOM H26S HAL3     0.09
+ATOM H26T HAL3     0.09
+GROUP
+ATOM C27  CTL3    -0.27  !terminal methyl, c27
+ATOM H27R HAL3     0.09
+ATOM H27S HAL3     0.09
+ATOM H27T HAL3     0.09
+
+! oleic acid chain
+BOND  O31  C31
+BOND  C31  C32
+DOUBLE  C31  O32
+BOND  C32  H2A       C32  H2B       C32  C33
+BOND  C33  H3A       C33  H3B       C33  C34
+BOND  C34  H4A       C34  H4B       C34  C35
+BOND  C35  H5A       C35  H5B       C35  C36
+BOND  C36  H6A       C36  H6B       C36  C37
+BOND  C37  H7A       C37  H7B       C37  C38
+BOND  C38  H8A       C38  H8B       C38  C39
+BOND  C39  H9A       
+DOUBLE  C39 C310
+BOND  C310 H10A      C310 C311
+BOND  C311 H11A      C311 H11B      C311 C312
+BOND  C312 H12A      C312 H12B      C312 C313
+BOND  C313 H13A      C313 H13B      C313 C314
+BOND  C314 H14A      C314 H14B      C314 C315
+BOND  C315 H15A      C315 H15B      C315 C316
+BOND  C316 H16A      C316 H16B      C316 C317
+BOND  C317 H17A      C317 H17B      C317 C318
+BOND  C318 H18A      C318 H18B      C318 H18C
+! cholesterol chain
+BOND C3   O31   C3   H3   
+BOND C3   C2   C2   H2R  C2   H2S
+BOND C2   C1   C1   H1R  C1   H1S
+BOND C3   C4   C4   H4R  C4   H4S
+BOND C4   C5
+BOND C5   C10  
+BOND C10  C1
+BOND C10  C19  C19  H19R C19  H19S C19  H19T
+DOUBLE C5   C6   
+BOND C6   H6
+BOND C6   C7   C7   H7R  C7   H7S
+BOND C7   C8   C8   H8
+BOND C8   C9   C9   H9
+BOND C9   C10
+BOND C8   C14  C14  H14
+BOND C14  C13
+BOND C13  C12  C12  H12R C12  H12S
+BOND C12  C11  C11  H11R C11  H11S
+BOND C11  C9
+BOND C13  C18  C18  H18R C18  H18S C18  H18T
+BOND C14  C15  C15  H15R C15  H15S
+BOND C15  C16  C16  H16R C16  H16S
+BOND C16  C17  C17  H17
+BOND C17  C13
+BOND C17  C20  C20  H20
+BOND C20  C21  C21  H21R C21  H21S C21  H21T
+BOND C20  C22  C22  H22R C22  H22S
+BOND C22  C23  C23  H23R C23  H23S
+BOND C23  C24  C24  H24R C24  H24S
+BOND C24  C25  C25  H25
+BOND C25  C26  C26  H26R C26  H26S C26  H26T
+BOND C25  C27  C27  H27R C27  H27S C27  H27T
+
